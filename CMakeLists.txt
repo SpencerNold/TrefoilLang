@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.29.3)
 project(tlang VERSION 0.0.1 DESCRIPTION "TrefoilLang Compiler")
 
 set(SOURCES
+    src/error.c
+    src/compiler.c
     src/lexer.c
     src/parser.c
 )
